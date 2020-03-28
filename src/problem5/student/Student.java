@@ -5,6 +5,7 @@
  *  Time: 7:06 PM
  */
 package problem5.student;
+
 // to store student information and properties
 public class Student {
     private String name;
@@ -34,6 +35,7 @@ public class Student {
     public void setBackLogCounter(int backLogCounter) {
         this.backLogCounter = backLogCounter;
     }
+
     @Override
     public String toString() {
         return "---------------------------------------" + "\n" +
